@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import ContentSwitcher from "./Components/ContentSwitcherComponent";
+import AboutMe from './Pages/AboutMe/AboutMe'
 
 function App() {
+  const [selectedPage, setSelectedPage] = useState(1);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="text">
+        <h1>ola</h1>
+      </div>
+      <div className="ola">
+        <ContentSwitcher passPage={setSelectedPage} />
+      </div>
+      {selectedPage === 1 ? (
+        <div >
+          <AboutMe  />
+        </div>
+      ) : null}
+
+      {selectedPage === 2 ? (
+        <div>
+          <h1>OLA2</h1>
+        </div>
+      ) : null}
+
+      {selectedPage === 3 ? (
+        <div>
+          <h1>OLA3</h1>
+        </div>
+      ) : null}
     </div>
   );
 }
