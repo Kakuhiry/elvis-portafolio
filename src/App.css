@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Buenard:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yrsa:wght@300&display=swap');
+
 .text {
   display: flex;
   justify-content: center;
   align-content: center;
   margin: 0 auto;
+  font-family: 'Buenard', serif;
+  margin: 1%;
 }
 
-.ola {
-  width: 50%;
-  margin: 0 auto;
 
+.contentSwitcher {
+  width: 50%;
+  margin: 3% auto 5% auto;
   display: flex;
 }
+
+p {
+  font-family: 'Yrsa', serif;
+}
+
+

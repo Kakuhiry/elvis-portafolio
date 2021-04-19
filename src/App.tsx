@@ -7,10 +7,7 @@ function App() {
   const [selectedPage, setSelectedPage] = useState(1);
   return (
     <div>
-      <div className="text">
-        <h1>ola</h1>
-      </div>
-      <div className="ola">
+      <div className="contentSwitcher">
         <ContentSwitcher passPage={setSelectedPage} />
       </div>
       {selectedPage === 1 ? (
