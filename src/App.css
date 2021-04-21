@@ -21,4 +21,12 @@ p {
   font-family: 'Yrsa', serif;
 }
 
+.switcher {
+  border-radius: 50px;
+  background: #ffffff;
+  height: 100%;
+  width: 90%;
+  margin: 4% auto 0;
+}
+
 

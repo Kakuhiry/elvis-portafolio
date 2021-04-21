@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 import ContentSwitcher from "./Components/ContentSwitcherComponent";
-import AboutMe from './Pages/AboutMe/AboutMe'
-
+import AboutMe from './Pages/AboutMe/AboutMe';
+import AccordionComponent from './Components/AccordionComponent';
 function App() {
   const [selectedPage, setSelectedPage] = useState(1);
   return (
@@ -11,20 +11,19 @@ function App() {
         <ContentSwitcher passPage={setSelectedPage} />
       </div>
       {selectedPage === 1 ? (
-        <div >
+        <div className="switcher">
           <AboutMe  />
         </div>
       ) : null}
 
       {selectedPage === 2 ? (
-        <div>
-          <h1>OLA2</h1>
+        <div className="switcher">
+          <AccordionComponent/>
         </div>
       ) : null}
 
       {selectedPage === 3 ? (
-        <div>
-          <h1>OLA3</h1>
+        <div className="switcher">
         </div>
       ) : null}
     </div>

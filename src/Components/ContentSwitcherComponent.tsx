@@ -1,6 +1,5 @@
 import React, { ReactElement } from "react";
 import "carbon-components/css/carbon-components.min.css";
-import "./ContentSwitcherComponent.css";
 
 import { ContentSwitcher, Switch } from "carbon-components-react";
 
@@ -17,13 +16,13 @@ export default function ContentSwitcherComponent({
           onClick={() => passPage(1)}
           style={{ justifyContent: "center" }}
           name="one"
-          text="First section"
+          text="About me"
         />
         <Switch
           onClick={() => passPage(2)}
           style={{ justifyContent: "center" }}
           name="two"
-          text="Second section"
+          text="Projects"
         />
         <Switch
           onClick={() => passPage(3)}
