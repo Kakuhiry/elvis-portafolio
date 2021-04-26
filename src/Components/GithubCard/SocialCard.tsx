@@ -8,7 +8,6 @@ interface Props {
 }
 
 export default function GithubCard({socialImg, name, link}: Props): ReactElement {
-  console.log(socialImg)
   return (
     <div>
       <a style={{ color: "inherit", textDecoration: 'none', display: "flex", width: "100%" }} href={link}>

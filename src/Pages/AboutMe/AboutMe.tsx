@@ -5,7 +5,7 @@ import SocialCard from "../../Components/GithubCard/SocialCard";
 
 export default function AboutMe(): ReactElement {
   return (
-    <div>
+    <div >
       <h1 className="frontEndText">{"</>"}Front end Web Developer</h1>
       <div>
         <h2 className="name">Hi, i'm Elvis!</h2>

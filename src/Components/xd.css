@@ -1,0 +1,17 @@
+.bx--accordion__content {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.dates {
+    margin: 0 0 0 33%;
+    width: 100%;
+}
+
+.githubCard{
+    width: 50%;
+}
+
+.techs {
+    width: 65%;
+}

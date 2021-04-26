@@ -28,7 +28,7 @@ export default function ContentSwitcherComponent({
           onClick={() => passPage(3)}
           style={{ justifyContent: "center" }}
           name="three"
-          text="Third section"
+          text="Education"
         />
       </ContentSwitcher>
     </div>

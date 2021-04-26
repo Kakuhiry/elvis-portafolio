@@ -3,6 +3,7 @@ import "./App.css";
 import ContentSwitcher from "./Components/ContentSwitcherComponent";
 import AboutMe from './Pages/AboutMe/AboutMe';
 import AccordionComponent from './Components/AccordionComponent';
+import Education from './Pages/Education/Education'
 function App() {
   const [selectedPage, setSelectedPage] = useState(1);
   return (
@@ -17,13 +18,14 @@ function App() {
       ) : null}
 
       {selectedPage === 2 ? (
-        <div className="switcher">
+        <div className="AccordionComp">
           <AccordionComponent/>
         </div>
       ) : null}
 
       {selectedPage === 3 ? (
         <div className="switcher">
+          <Education/>
         </div>
       ) : null}
     </div>
