@@ -2,6 +2,7 @@
   "name": "typescript-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kakuhiry.github.io/Elvis-portafolio/",
   "dependencies": {
     "@carbon/icons-react": "^10.30.0",
     "@testing-library/jest-dom": "^5.11.10",
@@ -15,6 +16,7 @@
     "carbon-components": "^10.32.1",
     "carbon-components-react": "^7.32.1",
     "carbon-icons": "^7.0.7",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -25,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
