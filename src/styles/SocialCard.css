@@ -1,0 +1,21 @@
+.nameTxt {
+    margin: auto 0 auto 5%;
+}
+
+.companyLogo {
+    height: 45px;
+    width: 45px;
+}
+
+@media screen and (max-width: 768px) {
+    .companyLogo{
+        height: 35px;
+        width: 35px;
+  };
+  }
+
+  @media screen and (max-width: 768px) {
+    .nameTxt{
+        font-size: 15px
+  };
+  }

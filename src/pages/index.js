@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./App.css";
-import ContentSwitcher from "./Components/ContentSwitcherComponent";
-import AboutMe from './Pages/AboutMe/AboutMe';
-import AccordionComponent from './Components/AccordionComponent';
-import Education from './Pages/Education/Education'
+import "../styles/App.css";
+import ContentSwitcher from "../components/ContentSwitcherComponent";
+import AboutMe from './AboutMe';
+import AccordionComponent from '../components/AccordionComponent';
+import Education from './Education'
 function App() {
   const [selectedPage, setSelectedPage] = useState(1);
   return (

@@ -1,0 +1,81 @@
+.frontEndText {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 2% 0 2% 0;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 40px;
+  margin: 2% 0 2%;
+}
+
+
+.cover-letter {
+  width: 40%;
+  font-size: 25px;
+}
+
+
+.converAndContactWrapper{
+  display: flex;
+}
+
+.codeSnipped {
+  margin: 30px 10px 0 10px;
+}
+
+.snipperGrid {
+  grid-template-areas: 
+  'a b c ';
+}
+
+.socialCard {
+  margin-bottom: 10%;
+}
+
+.socialCards {
+  margin-left: 25%;
+  bottom: 75px;
+}
+
+@media screen and (max-width: 768px) {
+  .socialCards{
+  width: 36%;
+  margin: 10% auto 
+};
+}
+
+@media screen and (max-width: 768px) {
+  .socialCard{
+  margin-bottom: 4%;
+  width: auto
+};
+}
+
+@media screen and (max-width: 768px) {
+  .frontEndText{
+  font-size: 27px;
+  margin: 20px 0;
+  width: 415px;
+};
+}
+@media screen and (max-width: 768px) {
+  .name{
+  font-size: 25px;
+};
+}
+
+@media screen and (max-width: 768px) {
+  .converAndContactWrapper{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover-letter{
+  width: 100%;
+  font-size: 20px
+};
+}
+

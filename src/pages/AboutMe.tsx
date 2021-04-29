@@ -1,16 +1,16 @@
 import React, { ReactElement } from "react";
-import "./AboutMe.css";
+import "../styles/AboutMe.css";
 import { CodeSnippet } from "carbon-components-react";
-import SocialCard from "../../Components/GithubCard/SocialCard";
+import SocialCard from "../components/SocialCard";
 
 export default function AboutMe(): ReactElement {
   return (
-    <div >
-      <h1 className="frontEndText">{"</>"}Front end Web Developer</h1>
+    <div className='abutMeWrapper' >
+      <h1 className="frontEndText">{"</> "}Front end Web Developer</h1>
       <div>
         <h2 className="name">Hi, i'm Elvis!</h2>
       </div>
-      <div style={{ display: "flex" }}>
+      <div className='converAndContactWrapper'>
         <p className="cover-letter">
           Passionate front-end web developer with a handful of opulent skills
           that go way beyond coding, such as a great ability to speak my mind,

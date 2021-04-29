@@ -1,8 +1,19 @@
 {
-  "name": "typescript-project",
-  "version": "0.1.0",
+  "name": "my-portafolio",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "https://kakuhiry.github.io/Elvis-portafolio/",
+  "description": "my-portafolio",
+  "author": "Elvis",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
   "dependencies": {
     "@carbon/icons-react": "^10.30.0",
     "@testing-library/jest-dom": "^5.11.10",
@@ -15,41 +26,15 @@
     "axios": "^0.21.1",
     "carbon-components": "^10.32.1",
     "carbon-components-react": "^7.32.1",
-    "carbon-icons": "^7.0.7",
+    "gatsby": "^3.4.0",
+    "gatsby-plugin-image": "^1.4.0",
+    "gatsby-plugin-sharp": "^3.4.0",
+    "gatsby-source-filesystem": "^3.4.0",
+    "gatsby-transformer-sharp": "^3.4.0",
     "gh-pages": "^3.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "typescript": "^4.2.3",
     "web-vitals": "^1.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@types/carbon-components-react": "^7.31.0"
   }
 }
