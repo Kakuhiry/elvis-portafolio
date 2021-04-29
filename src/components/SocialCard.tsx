@@ -1,6 +1,5 @@
 import React, { ReactElement } from "react";
-import "./SocialCard.css";
-
+import '../styles/SocialCard.css'
 interface Props {
   socialImg: string,
   name: string,
@@ -12,8 +11,8 @@ export default function GithubCard({socialImg, name, link}: Props): ReactElement
     <div>
       <a style={{ color: "inherit", textDecoration: 'none', display: "flex", width: "100%" }} href={link}>
         <img
-          style={{ width: "45px", height: "45px" }}
-          src={require(`../../Assets/${socialImg}`).default}
+          className= 'companyLogo'
+          src={require(`../images/${socialImg}`).default}
           alt=""
         />
         <h4 className="nameTxt">{name}</h4>

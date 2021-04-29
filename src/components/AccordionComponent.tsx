@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { Accordion, AccordionItem, CodeSnippet } from "carbon-components-react";
-import "./xd.css";
+import "../styles/xd.css";
 
 export default function AccordionComponent(): ReactElement {
   return (
@@ -143,7 +143,7 @@ export default function AccordionComponent(): ReactElement {
                   </CodeSnippet>
                   <br />
                   <CodeSnippet light type="inline">
-                    {"To: Ongoin"}
+                    {"To: Ongoing"}
                   </CodeSnippet>
                 </div>
               </div>
