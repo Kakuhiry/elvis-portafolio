@@ -38,8 +38,21 @@ p {
   margin: 4% auto
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1160px) {
   .switcher{
-  margin: 0 auto
-};
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+.AccordionComp {
+
+  background: #ffffff;
+  height: 100%;
+  width: 90%;
+  margin: 4% auto
+}
+.contentSwitcher {
+  width: 80%;
+  margin: 3% auto 5% auto;
+  display: flex;
+}
 }

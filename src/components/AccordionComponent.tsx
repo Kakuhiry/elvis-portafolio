@@ -10,13 +10,13 @@ export default function AccordionComponent(): ReactElement {
           <div style={{ width: "100%" }}>
             <div>
               <div className="githubCard">
-                <div style={{ display: "flex" }}>
+                <div className= "dateAndCard">
                   <p style={{ fontSize: 15 }}>
                     <a href="https://github.com/Kakuhiry/medbase">
                       <img
+                        className="githubImg"
                         src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/Kakuhiry/medbase.png"
                         alt="Github repo card"
-                        width="460px"
                       />
                     </a>
                   </p>
@@ -34,7 +34,7 @@ export default function AccordionComponent(): ReactElement {
               <br />
             </div>
             <div className="techs">
-              <CodeSnippet type="inline">{"Node"}</CodeSnippet>
+              <CodeSnippet style={{ marginLeft: 10, marginBottom: 5 }} type="inline">{"Node"}</CodeSnippet>
               <CodeSnippet
                 style={{ marginLeft: 10, marginBottom: 5 }}
                 type="inline"
@@ -81,12 +81,12 @@ export default function AccordionComponent(): ReactElement {
         <AccordionItem title={"Weather Application"}>
           <div style={{ width: "100%" }}>
             <div className="githubCard">
-              <div style={{ display: "flex" }}>
+              <div className= "dateAndCard">
                 <p style={{ fontSize: 15 }}>
                   <a href="https://github.com/Kakuhiry/weatherapp">
                     <img
+                    className="githubImg"
                       src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/Kakuhiry/weatherapp.png"
-                      width="460px"
                       alt= 'weatherapp Github card'
                     />
                   </a>
@@ -127,13 +127,14 @@ export default function AccordionComponent(): ReactElement {
         <AccordionItem title={"Field Find"}>
           <div style={{ width: "100%" }}>
             <div className="githubCard">
-              <div style={{ display: "flex" }}>
+              <div className= "dateAndCard">
                 <p style={{ fontSize: 15 }}>
                   <a href="https://github.com/FieldFind/FrontEnd">
                     <img
+                    className="githubImg"
+
                       src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/FieldFind/FrontEnd.png"
                       alt="Field find repo card"
-                      width="460px"
                     />
                   </a>
                 </p>
@@ -151,13 +152,13 @@ export default function AccordionComponent(): ReactElement {
             </div>
             <div className="techs">
               <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
+                style={{ marginLeft: 10, marginBottom: 10 }}
                 type="inline"
               >
                 {"Netlify"}
               </CodeSnippet>
               <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
+                style={{ marginLeft: 10, marginBottom: 10 }}
                 type="inline"
               >
                 {"React Native"}
