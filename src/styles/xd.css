@@ -12,6 +12,49 @@
     width: 50%;
 }
 
+.githubImg{
+    width: 600px;
+}
+
 .techs {
     width: 65%;
 }
+
+.dateAndCard {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .githubImg {
+        width: 300px;
+    }
+    .dates {
+        
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    .dateAndCard {
+        display: block;
+        margin: 10px 0;
+    }
+    .techs {
+        width: 95%;
+    }
+
+    .githubImg {
+        width: 339px;
+    }
+    .dates {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    .dateAndCard {
+        display: block;
+        margin: 10px 0;
+    }
+    .techs {
+        width: 95%;
+    }
+  }
+
+  

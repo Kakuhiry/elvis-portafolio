@@ -1,12 +1,12 @@
 .frontEndText {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 70px;
   margin: 2% 0 2% 0;
 }
 
 .name {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 50px;
   margin: 2% 0 2%;
 }
 
@@ -37,45 +37,31 @@
 .socialCards {
   margin-left: 25%;
   bottom: 75px;
+  width: 20%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1160px) {
   .socialCards{
-  width: 36%;
-  margin: 10% auto 
-};
+  width: 80%;
+  margin: 10% 0 
 }
-
-@media screen and (max-width: 768px) {
-  .socialCard{
+.socialCard{
   margin-bottom: 4%;
-  width: auto
-};
+  width: auto;
+  font-size: 10px;
 }
-
-@media screen and (max-width: 768px) {
-  .frontEndText{
-  font-size: 27px;
-  margin: 20px 0;
-  width: 415px;
-};
+.frontEndText{
+  font-size: 22px;
+  margin: 50px auto;
 }
-@media screen and (max-width: 768px) {
-  .name{
+.name{
   font-size: 25px;
-};
 }
-
-@media screen and (max-width: 768px) {
-  .converAndContactWrapper{
-    display: block;
-  }
+.converAndContactWrapper{
+  display: block;
 }
-
-@media screen and (max-width: 768px) {
-  .cover-letter{
+.cover-letter{
   width: 100%;
-  font-size: 20px
+  font-size: 15px
 };
 }
-

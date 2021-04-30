@@ -5,12 +5,13 @@ import { CodeSnippet } from "carbon-components-react";
 export default function Education(): ReactElement {
   return (
     <div>
+      
+      <div className="educationBody">
       <img
         className="intecLogo"
         src={require("../images/logo-intec-primario.jpg").default}
         alt=""
       />
-      <div className="educationBody">
         <div className="description">
           <h1 style={{ fontSize: "45px", fontWeight: 700 }}>
             Intec university
