@@ -10,7 +10,7 @@ export default function AccordionComponent(): ReactElement {
           <div style={{ width: "100%" }}>
             <div>
               <div className="githubCard">
-                <div className= "dateAndCard">
+                <div className="dateAndCard">
                   <p style={{ fontSize: 15 }}>
                     <a href="https://github.com/Kakuhiry/medbase">
                       <img
@@ -34,7 +34,12 @@ export default function AccordionComponent(): ReactElement {
               <br />
             </div>
             <div className="techs">
-              <CodeSnippet style={{ marginLeft: 10, marginBottom: 5 }} type="inline">{"Node"}</CodeSnippet>
+              <CodeSnippet
+                style={{ marginLeft: 10, marginBottom: 5 }}
+                type="inline"
+              >
+                {"Node"}
+              </CodeSnippet>
               <CodeSnippet
                 style={{ marginLeft: 10, marginBottom: 5 }}
                 type="inline"
@@ -74,20 +79,19 @@ export default function AccordionComponent(): ReactElement {
               <CodeSnippet style={{ marginLeft: 10 }} type="inline">
                 {"Javascript"}
               </CodeSnippet>
-              
             </div>
           </div>
         </AccordionItem>
         <AccordionItem title={"Weather Application"}>
           <div style={{ width: "100%" }}>
             <div className="githubCard">
-              <div className= "dateAndCard">
+              <div className="dateAndCard">
                 <p style={{ fontSize: 15 }}>
                   <a href="https://github.com/Kakuhiry/weatherapp">
                     <img
-                    className="githubImg"
+                      className="githubImg"
                       src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/Kakuhiry/weatherapp.png"
-                      alt= 'weatherapp Github card'
+                      alt="weatherapp Github card"
                     />
                   </a>
                 </p>
@@ -120,21 +124,18 @@ export default function AccordionComponent(): ReactElement {
               <CodeSnippet style={{ marginLeft: 10 }} type="inline">
                 {"Javascript"}
               </CodeSnippet>
-              
             </div>
           </div>
         </AccordionItem>
         <AccordionItem title={"Field Find"}>
           <div style={{ width: "100%" }}>
             <div className="githubCard">
-              <div className= "dateAndCard">
+              <div className="dateAndCard">
                 <p style={{ fontSize: 15 }}>
                   <a href="https://github.com/FieldFind/FrontEnd">
                     <img
-                    className="githubImg"
-
+                      className="githubImg"
                       src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/FieldFind/FrontEnd.png"
-                      alt="Field find repo card"
                     />
                   </a>
                 </p>
@@ -163,7 +164,7 @@ export default function AccordionComponent(): ReactElement {
               >
                 {"React Native"}
               </CodeSnippet>
-            
+
               <CodeSnippet style={{ marginLeft: 10 }} type="inline">
                 {"Javascript"}
               </CodeSnippet>

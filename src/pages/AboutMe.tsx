@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import "../styles/AboutMe.css";
 import { CodeSnippet } from "carbon-components-react";
 import SocialCard from "../components/SocialCard";
+import ContactCard from '../components/ContactCard';
 
 export default function AboutMe(): ReactElement {
   return (
@@ -24,6 +25,8 @@ export default function AboutMe(): ReactElement {
               link={
                 "https://www.linkedin.com/in/elvis-gilbert-batista-pimentel-82b489207/"
               }
+              active={true}
+              
             />
           </div>
           <div className="socialCard">
@@ -31,20 +34,25 @@ export default function AboutMe(): ReactElement {
               socialImg={"logo--github.svg"}
               name={"Kakuhiry"}
               link={"https://www.github.com/Kakuhiry"}
+              active={true}
+
             />
           </div>
           <div className="socialCard">
             <SocialCard
               socialImg={"email.svg"}
               name={"GilbertBatista.k@gmail.com"}
-              link={""}
+              link={"#"}
+              active={false}
             />
           </div>
           <div className="socialCard">
             <SocialCard
               socialImg={"phone.svg"}
               name={"+1 (829)-355-8895"}
-              link={""}
+              link={"#"}
+              active={false}
+
             />
           </div>
         </div>

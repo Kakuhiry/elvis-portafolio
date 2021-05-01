@@ -1,53 +1,47 @@
 .intecLogo {
-    height: 150px;
-    width: 300px;
-    margin-bottom: 3%;
+  height: 150px;
+  width: 300px;
+  margin-bottom: 3%;
 }
 
 .description {
-    width: 95%;
+  width: 95%;
 }
 
 .educationBody {
-    margin: 2% 0 5% 0;
-    width: 100%
-
+  margin: 2% 0 5% 0;
+  width: 100%;
 }
 
-
 .startEndDate {
-    width: 45%;
-    
+  width: 45%;
 }
 
 .descriptionAndDates {
-    display: flex;
-    margin-bottom: 10%;
+  display: flex;
+  margin-bottom: 5%;
 }
 
 .descriptionIntec {
-    width: 85%;
-    font-size: 40px;
-} 
+  width: 85%;
+  font-size: 30px;
+}
 
 @media screen and (max-width: 768px) {
-    .descriptionAndDates{
-        margin-top: 10%;
-        display: block;
+  .descriptionAndDates {
+    margin-top: 5%;
+    display: block;
   }
-  .descriptionIntec{
+  .descriptionIntec {
     font-size: 20px;
     width: 100%;
-}
-.startEndDate{
-margin-top: 10%;
-display: block;
-}
-
-.description {
-width: 100%;
-}
+  }
+  .startEndDate {
+    margin: 7% 0;
+    display: block;
   }
 
-
-
+  .description {
+    width: 100%;
+  }
+}
