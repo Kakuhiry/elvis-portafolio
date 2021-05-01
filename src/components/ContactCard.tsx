@@ -1,18 +1,14 @@
 import React, { ReactElement } from "react";
 import "../styles/SocialCard.css";
+import { CodeSnippet } from "carbon-components-react";
+import { link } from "node:fs";
 interface Props {
   socialImg: string;
   name: string;
   link: string;
-  active: boolean;
 }
 
-export default function GithubCard({
-  socialImg,
-  name,
-  link,
-  active
-}: Props): ReactElement {
+export default function ContactCard({ socialImg, name, link }: Props): ReactElement {
   return (
     <div>
       <a
@@ -22,15 +18,16 @@ export default function GithubCard({
           display: "flex",
           width: "100%",
         }}
-        href={link}
-        onClick={active? null: e => e.preventDefault()}
+
+        href={"/"}
+        onClick={e => e.preventDefault()}
       >
         <img
           className="companyLogo"
           src={require(`../images/${socialImg}`).default}
           alt=""
         />
-        <h4 className="nameTxt">{name}</h4>
+        <CodeSnippet light className= "nameTxt">{name}</CodeSnippet>
       </a>
     </div>
   );
