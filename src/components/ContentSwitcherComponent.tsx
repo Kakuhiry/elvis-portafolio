@@ -22,7 +22,7 @@ export default function ContentSwitcherComponent({
           onClick={() => passPage(2)}
           style={{ justifyContent: "center" }}
           name="two"
-          text="Projects"
+          text='Experience'
         />
         <Switch
           onClick={() => passPage(3)}

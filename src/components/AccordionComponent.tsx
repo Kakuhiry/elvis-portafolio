@@ -1,183 +1,60 @@
 import React, { ReactElement } from "react";
-import { Accordion, AccordionItem, CodeSnippet } from "carbon-components-react";
+import { CodeSnippet } from "carbon-components-react";
 import "../styles/xd.css";
 
 export default function AccordionComponent(): ReactElement {
   return (
     <div>
-      <Accordion>
-        <AccordionItem title={"MedBase"} style={{ width: "100%" }}>
-          <div style={{ width: "100%" }}>
+      <div className="educationBody">
+        <img
+          className="intecLogo"
+          src={require("../images/MediaRevolution1.jpeg").default}
+          alt=""
+        />
+        <div className="description">
+          <h1 style={{ fontSize: "45px", fontWeight: 700 }}>
+            Media Revolution SRL.
+          </h1>
+          <div className="descriptionAndDates">
             <div>
-              <div className="githubCard">
-                <div className="dateAndCard">
-                  <p style={{ fontSize: 15 }}>
-                    <a href="https://github.com/Kakuhiry/medbase">
-                      <img
-                        className="githubImg"
-                        src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/Kakuhiry/medbase.png"
-                        alt="Github repo card"
-                      />
-                    </a>
-                  </p>
-                  <div className="dates">
-                    <CodeSnippet light type="inline">
-                      {"From: August 2020"}
-                    </CodeSnippet>
-                    <br />
-                    <CodeSnippet light type="inline">
-                      {"To: December 2020"}
-                    </CodeSnippet>
-                  </div>
-                </div>
-              </div>
-              <br />
+              <p className="descriptionIntec">
+              A company dedicated to the development of platforms and software, located in Santo Domingo, National District.
+              </p>
             </div>
-            <div className="techs">
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"Node"}
-              </CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"MongoDB"}
-              </CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"React"}
-              </CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"Express"}
-              </CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"Redux"}
-              </CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"Jwt"}
-              </CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"Axios"}
-              </CodeSnippet>
-              <CodeSnippet style={{ marginLeft: 10 }} type="inline">
-                {"Javascript"}
+            <div className="startEndDate">
+              <h5>Date</h5>
+              <CodeSnippet type="inline" light>
+                {"May 07 2021 - Present"}
               </CodeSnippet>
             </div>
           </div>
-        </AccordionItem>
-        <AccordionItem title={"Weather Application"}>
-          <div style={{ width: "100%" }}>
-            <div className="githubCard">
-              <div className="dateAndCard">
-                <p style={{ fontSize: 15 }}>
-                  <a href="https://github.com/Kakuhiry/weatherapp">
-                    <img
-                      className="githubImg"
-                      src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/Kakuhiry/weatherapp.png"
-                      alt="weatherapp Github card"
-                    />
-                  </a>
-                </p>
-                <div className="dates">
-                  <CodeSnippet light type="inline">
-                    {"From: October 2020"}
-                  </CodeSnippet>
-                  <br />
-                  <CodeSnippet light type="inline">
-                    {"To: December 2020"}
-                  </CodeSnippet>
-                </div>
-              </div>
-              <br />
-            </div>
-            <div className="techs">
-              <CodeSnippet type="inline">{"Node"}</CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"Axios"}
-              </CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"React"}
-              </CodeSnippet>
-              <CodeSnippet style={{ marginLeft: 10 }} type="inline">
-                {"Javascript"}
-              </CodeSnippet>
-            </div>
-          </div>
-        </AccordionItem>
-        <AccordionItem title={"Field Find"}>
-          <div style={{ width: "100%" }}>
-            <div className="githubCard">
-              <div className="dateAndCard">
-                <p style={{ fontSize: 15 }}>
-                  <a href="https://github.com/FieldFind/FrontEnd">
-                    <img
-                      className="githubImg"
-                      src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/FieldFind/FrontEnd.png"
-                    />
-                  </a>
-                </p>
-                <div className="dates">
-                  <CodeSnippet light type="inline">
-                    {"From: Febrary 2021"}
-                  </CodeSnippet>
-                  <br />
-                  <CodeSnippet light type="inline">
-                    {"To: Ongoing"}
-                  </CodeSnippet>
-                </div>
-              </div>
-              <br />
-            </div>
-            <div className="techs">
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 10 }}
-                type="inline"
-              >
-                {"Netlify"}
-              </CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 10 }}
-                type="inline"
-              >
-                {"React Native"}
-              </CodeSnippet>
-
-              <CodeSnippet style={{ marginLeft: 10 }} type="inline">
-                {"Javascript"}
-              </CodeSnippet>
-              <CodeSnippet
-                style={{ marginLeft: 10, marginBottom: 5 }}
-                type="inline"
-              >
-                {"Expo"}
-              </CodeSnippet>
-            </div>
-          </div>
-        </AccordionItem>
-      </Accordion>
+        </div>
+        <div className="degree">
+        <h4>Position:</h4>
+        <h3>Full Stack Developer</h3>
+        </div>
+      </div>
+      <h4>Technologies: </h4>
+      <div className="snipperGrid">
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Typescript"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Type-GraphQL"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"TypeORM"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Express"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Git"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Postgres"}
+          </CodeSnippet>
+        </div>
     </div>
   );
 }

@@ -18,7 +18,7 @@ function App() {
       ) : null}
 
       {selectedPage === 2 ? (
-        <div className="AccordionComp">
+        <div className="switcher">
           <AccordionComponent/>
         </div>
       ) : null}

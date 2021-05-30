@@ -7,13 +7,13 @@ import ContactCard from '../components/ContactCard';
 export default function AboutMe(): ReactElement {
   return (
     <div className='abutMeWrapper' >
-      <h1 className="frontEndText">{"</> "}Front end Web Developer</h1>
+      <h1 className="frontEndText">{"</> "}Back end Web Developer</h1>
       <div>
         <h2 className="name">Hi, i'm Elvis!</h2>
       </div>
       <div className='converAndContactWrapper'>
         <p className="cover-letter">
-          Passionate front-end web developer with a handful of opulent skills
+          Passionate backend web developer with a handful of opulent skills
           that go way beyond coding, such as a great ability to speak my mind,
           extremely proactive, and addicted to problem solving{" "}
         </p>
@@ -61,28 +61,31 @@ export default function AboutMe(): ReactElement {
         <h4>My skillset: </h4>
         <div className="snipperGrid">
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"React"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"HTML"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"CSS"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
             {"Typescript"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Node"}
+            {"GraphQL"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"MongoDB"}
+            {"Type-GraphQL"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"TypeORM"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Express"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
             {"Git"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Postgres"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
             {"Docker"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"React"}
           </CodeSnippet>
         </div>
       </div>
