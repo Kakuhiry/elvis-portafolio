@@ -70,6 +70,9 @@ export default function AboutMe(): ReactElement {
             {"Type-GraphQL"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Apollo-Server"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
             {"TypeORM"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
@@ -83,9 +86,6 @@ export default function AboutMe(): ReactElement {
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
             {"Docker"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"React"}
           </CodeSnippet>
         </div>
       </div>

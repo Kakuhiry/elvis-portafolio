@@ -43,6 +43,9 @@ export default function AccordionComponent(): ReactElement {
             {"Type-GraphQL"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Apollo-Server"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
             {"TypeORM"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
