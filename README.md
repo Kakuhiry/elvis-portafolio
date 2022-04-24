@@ -1,21 +1,56 @@
-Hi 👋 My name is Gilbert Batista!
- <br>=================================
- <br>
- <br>Site Reliability Engineer
- <br>-------------------------  
-I'm a passionate developer with a handful of skills that go way beyond coding, such as a great ability to speak my mind, extremely proactive, a good eye for growth and improvement as well as addicted to problem solving (~˘▾˘)~.
 
-<br>♪~ ᕕ(ᐛ)ᕗ ♪~ ᕕ(ᐛ)ᕗ
-<br>On a journey to learn a lot and become the greatest SWE!!  
 
-* 🌍  I'm based in Dominican Republic 
-* 🖥️  See my portfolio at [Here](http://kakuhiry.github.io/Elvis-portafolio/) 
-* ✉️  You can contact me at [GilbertBatista.k@gmail.com](mailto:GilbertBatista.k@gmail.com) 
-* 🧠  I'm currently learning SRE and Devops culture
-* 🤝  I'm open to collaborating on stuff (☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜) 
-* ⚡  A little clumsy, but very hard working ᕦ(ò\_óˇ)ᕤ
+<p align="center">
+   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+   </a>
+ </p>
+ <h1 align="center">
+   Gatsby minimal starter
+ </h1>
 
-<b>My GitHub Stats</b>
+ ## 🚀 Quick start
 
-<a href="http://www.github.com/kakuhiry"><img src="https://github-readme-stats.vercel.app/api?username=kakuhiry&show_icons=true&hide=stars,issues,&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="kakuhiry's GitHub stats" /></a>
-<br><a href="https://github.com/kakuhiry" align="left"></a>
+ 1.  **Create a Gatsby site.**
+
+     Use the Gatsby CLI to create a new site, specifying the minimal starter.
+
+     ```shell
+     # create a new Gatsby site using the minimal starter
+     npm init gatsby
+     ```
+
+ 2.  **Start developing.**
+
+     Navigate into your new site’s directory and start it up.
+
+     ```shell
+     cd my-gatsby-site/
+     npm run develop
+     ```
+
+ 3.  **Open the code and start customizing!**
+
+     Your site is now running at http://localhost:8000!
+
+     Edit `src/pages/index.js` to see your site update in real-time!
+
+ 4.  **Learn more**
+
+     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+     - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+     - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+     - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+ ## 🚀 Quick start (Gatsby Cloud)
+
+ Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+
+ [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
