@@ -7,15 +7,14 @@ import ContactCard from '../components/ContactCard';
 export default function AboutMe(): ReactElement {
   return (
     <div className='abutMeWrapper' >
-      <h1 className="frontEndText">{"</> "}Back end Web Developer</h1>
+      <h1 className="frontEndText">{"</> "}Site Reliability Engineer</h1>
       <div>
-        <h2 className="name">Hi, i'm Elvis!</h2>
+        <h2 className="name">Hi, i'm Gilbert!</h2>
       </div>
       <div className='converAndContactWrapper'>
         <p className="cover-letter">
-          Passionate backend web developer with a handful of opulent skills
-          that go way beyond coding, such as a great ability to speak my mind,
-          extremely proactive, and addicted to problem solving{" "}
+        I'm a passionate developer with a handful of valuable capabilities such as a great ability to speak my mind,
+         extremely proactive, a good eye for growth and improvement as well as addicted to problem solving and thirsty for knoweldge.{" "}
         </p>
         <div className="socialCards">
           <div className="socialCard">
@@ -58,34 +57,28 @@ export default function AboutMe(): ReactElement {
         </div>
       </div>
       <div style={{ marginTop: "1%" }}>
-        <h4>My skillset: </h4>
+        <h4>Tools/Skills:</h4>
         <div className="snipperGrid">
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Typescript"}
+            {"CI/CD (Github Actions + GCP)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"GraphQL"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Type-GraphQL"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Apollo-Server"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"TypeORM"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Express"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Git"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Postgres"}
+            {"Bash"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
             {"Docker"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Linux Sysadmin"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"IaC (Infrastructure as Code)"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Kubernetes (GKE)"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"DevSecOps"}
           </CodeSnippet>
         </div>
       </div>
