@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/App.css";
 import ContentSwitcher from "../components/ContentSwitcherComponent";
 import AboutMe from './AboutMe';
-import AccordionComponent from '../components/AccordionComponent';
+import Jobs from '../components/Jobs';
 import Education from './Education'
 function App() {
   const [selectedPage, setSelectedPage] = useState(1);
@@ -19,7 +19,7 @@ function App() {
 
       {selectedPage === 2 ? (
         <div className="switcher">
-          <AccordionComponent/>
+          <Jobs/>
         </div>
       ) : null}
 

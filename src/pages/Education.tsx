@@ -25,9 +25,9 @@ export default function Education(): ReactElement {
               </p>
             </div>
             <div className="startEndDate">
-              <h5>Graduation date</h5>
+              <h5>Graduated on:</h5>
               <CodeSnippet type="inline" light>
-                {"October 2021"}
+                {"April 2022"}
               </CodeSnippet>
             </div>
           </div>

@@ -2,9 +2,9 @@ import React, { ReactElement } from "react";
 import { CodeSnippet } from "carbon-components-react";
 import "../styles/xd.css";
 
-export default function AccordionComponent(): ReactElement {
+export default function MediaRevolution(): ReactElement {
   return (
-    <div>
+    <div style={{paddingBottom: "8%"}}>
       <div className="educationBody">
         <img
           className="intecLogo"
@@ -24,7 +24,7 @@ export default function AccordionComponent(): ReactElement {
             <div className="startEndDate">
               <h5>Date</h5>
               <CodeSnippet type="inline" light>
-                {"May 07 2021 - Present"}
+                {"May 07 2021 - September 30 2021"}
               </CodeSnippet>
             </div>
           </div>

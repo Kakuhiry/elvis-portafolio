@@ -23,7 +23,7 @@ export default function currentJob(): ReactElement {
               </CodeSnippet>
               <br />
               <CodeSnippet light type="inline">
-                {"To: Present"}
+                {"To: September 30"}
               </CodeSnippet>
             </div>
           </div>
