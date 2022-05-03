@@ -2,9 +2,9 @@ import React, { ReactElement } from "react";
 import { CodeSnippet } from "carbon-components-react";
 import "../styles/xd.css";
 
-export default function AccordionComponent(): ReactElement {
+export default function MediaRevolution(): ReactElement {
   return (
-    <div>
+    <div style={{paddingBottom: "8%"}}>
       <div className="educationBody">
         <img
           className="intecLogo"

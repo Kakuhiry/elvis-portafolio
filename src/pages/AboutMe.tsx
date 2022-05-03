@@ -7,14 +7,14 @@ import ContactCard from '../components/ContactCard';
 export default function AboutMe(): ReactElement {
   return (
     <div className='abutMeWrapper' >
-      <h1 className="frontEndText">{"</> "}Site Reliability Engineer</h1>
+      <h1 className="frontEndText">{"</> "}Devops/Site Reliability Engineer</h1>
       <div>
         <h2 className="name">Hi, i'm Gilbert!</h2>
       </div>
       <div className='converAndContactWrapper'>
         <p className="cover-letter">
-        I'm a passionate developer with a handful of valuable capabilities such as a great ability to speak my mind,
-         extremely proactive, a good eye for growth and improvement as well as addicted to problem solving and thirsty for knoweldge.{" "}
+          I'm a passionate developer with a handful of valuable capabilities such as a great ability to speak my mind,
+          extremely proactive, a good eye for growth and improvement as well as addicted to problem solving.{" "}
         </p>
         <div className="socialCards">
           <div className="socialCard">
