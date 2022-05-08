@@ -7,7 +7,7 @@ import ContactCard from '../components/ContactCard';
 export default function AboutMe(): ReactElement {
   return (
     <div className='abutMeWrapper' >
-      <h1 className="frontEndText">{"</> "}Devops/Site Reliability Engineer</h1>
+      <h1 className="frontEndText">{"</> "}Devops Engineer</h1>
       <div>
         <h2 className="name">Hi, i'm Gilbert!</h2>
       </div>
@@ -59,7 +59,7 @@ export default function AboutMe(): ReactElement {
       <div style={{ marginTop: "1%" }}>
         <h4>Tools/Skills:</h4>
         <div className="snipperGrid">
-          <CodeSnippet className="codeSnipped" disabled type="inline">
+        <CodeSnippet className="codeSnipped" disabled type="inline">
             {"CI/CD (Github Actions + GCP)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
@@ -72,13 +72,16 @@ export default function AboutMe(): ReactElement {
             {"Linux Sysadmin"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"IaC (Infrastructure as Code)"}
+            {"Terraform"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
             {"Kubernetes (GKE)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"DevSecOps"}
+            {"Prometheus"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"k6s"}
           </CodeSnippet>
         </div>
       </div>

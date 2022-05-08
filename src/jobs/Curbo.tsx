@@ -31,7 +31,7 @@ export default function Curbo(): ReactElement {
         </div>
         <div className="degree">
         <h4>Position:</h4>
-        <h3>Devops/Site Reliability Engineer</h3>
+        <h3>Devops Engineer</h3>
         </div>
       </div>
       <h4>Technologies: </h4>
@@ -49,13 +49,16 @@ export default function Curbo(): ReactElement {
             {"Linux Sysadmin"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"IaC (Infrastructure as Code)"}
+            {"Terraform"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
             {"Kubernetes (GKE)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"DevSecOps"}
+            {"Prometheus"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"k6s"}
           </CodeSnippet>
         </div>
     </div>
