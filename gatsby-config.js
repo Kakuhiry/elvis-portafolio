@@ -1,6 +1,6 @@
 module.exports = {
 
-  pathPrefix: "/Elvis-portafolio",
+  pathPrefix: "/portafolio",
   siteMetadata: {
     title: "my-portafolio",
   },
