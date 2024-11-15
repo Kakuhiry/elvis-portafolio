@@ -24,7 +24,7 @@ export default function Curbo(): ReactElement {
             <div className="startEndDate">
               <h5>Date</h5>
               <CodeSnippet type="inline" light>
-                {"October 04 2021 - present"}
+                {"Sep 2021 - Oct 2022"}
               </CodeSnippet>
             </div>
           </div>
@@ -37,28 +37,25 @@ export default function Curbo(): ReactElement {
       <h4>Technologies: </h4>
       <div className="snipperGrid">
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"CI/CD (Github Actions + GCP)"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Bash"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Docker"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Linux Sysadmin"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Terraform"}
+            {"Google Cloud Platform (GCP)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
             {"Kubernetes (GKE)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Prometheus"}
+            {"Github Actions"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"k6s"}
+            {"FluxCD"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Docker"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Terraform"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"GraphQL"}
           </CodeSnippet>
         </div>
     </div>

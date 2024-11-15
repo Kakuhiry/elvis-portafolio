@@ -2,61 +2,59 @@ import React, { ReactElement } from "react";
 import { CodeSnippet } from "carbon-components-react";
 import "../styles/xd.css";
 
-export default function MediaRevolution(): ReactElement {
+export default function Lemontech(): ReactElement {
   return (
     <div style={{paddingBottom: "8%"}}>
       <div className="educationBody">
         <img
           className="intecLogo"
-          src={require("../images/MediaRevolution1.jpeg").default}
+          src={require("../images/digitalhuman_ai_logo.jpeg").default}
           alt=""
         />
         <div className="description">
           <h1 style={{ fontSize: "45px", fontWeight: 700 }}>
-            Media Revolution SRL.
+            Digital Human
           </h1>
           <div className="descriptionAndDates">
             <div>
               <p className="descriptionIntec">
-              A company dedicated to the development of platforms and software, located in Santo Domingo, National District.
+                At Digital Human, we develop mission-critical AI software, creating reliable solutions for high-stakes environments. Our expertise ensures seamless integration with complex systems, delivering impactful results.
               </p>
             </div>
             <div className="startEndDate">
               <h5>Date</h5>
               <CodeSnippet type="inline" light>
-                {"Jan 2021 - Sep 2022"}
+                {"Sep 2024 - Present"}
               </CodeSnippet>
             </div>
           </div>
         </div>
         <div className="degree">
         <h4>Position:</h4>
-        <h3>Full Stack Developer</h3>
+        <h3>Golang Backend Engineer · Part-time</h3>
         </div>
       </div>
       <h4>Technologies: </h4>
       <div className="snipperGrid">
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Typescript"}
+            {"Golang"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Type-GraphQL"}
+            {"MongoDB (Atlas)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Apollo-Server"}
+            {"Google Cloud Platform (GCP)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"TypeORM"}
+            {"Cloud Functions"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Express"}
+            {"Cloud Run"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Git"}
+            {"Api Gateway"}
           </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Postgres"}
-          </CodeSnippet>
+
         </div>
     </div>
   );

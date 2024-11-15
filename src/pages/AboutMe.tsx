@@ -22,7 +22,7 @@ export default function AboutMe(): ReactElement {
               socialImg={"logo--linkedin.svg"}
               name={"Elvis Gilbert Batista Pimentel"}
               link={
-                "https://www.linkedin.com/in/elvis-gilbert-batista-pimentel-82b489207/"
+                "https://www.linkedin.com/in/egbpk/"
               }
               active={true}
               
@@ -60,28 +60,28 @@ export default function AboutMe(): ReactElement {
         <h4>Tools/Skills:</h4>
         <div className="snipperGrid">
         <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"CI/CD (Github Actions + GCP)"}
+            {"Kubernetes"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Bash"}
+            {"AWS"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Docker"}
+            {"GCP"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Linux Sysadmin"}
+            {"ArgoCD"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Api Gateway (AWS, GCP, Istio)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
             {"Terraform"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Kubernetes (GKE)"}
+            {"Serverless (Lambda, Cloud Run, Fargate, ECS, EKS, Knative)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Prometheus"}
-          </CodeSnippet>
-          <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"k6s"}
+            {"Open Telemetry"}
           </CodeSnippet>
         </div>
       </div>

@@ -2,60 +2,63 @@ import React, { ReactElement } from "react";
 import { CodeSnippet } from "carbon-components-react";
 import "../styles/xd.css";
 
-export default function MediaRevolution(): ReactElement {
+export default function Lemontech(): ReactElement {
   return (
     <div style={{paddingBottom: "8%"}}>
       <div className="educationBody">
         <img
-          className="intecLogo"
-          src={require("../images/MediaRevolution1.jpeg").default}
+          className="lemontechLogo"
+          src={require("../images/lemontech1.png").default}
           alt=""
         />
         <div className="description">
           <h1 style={{ fontSize: "45px", fontWeight: 700 }}>
-            Media Revolution SRL.
+            Lemontech
           </h1>
           <div className="descriptionAndDates">
             <div>
               <p className="descriptionIntec">
-              A company dedicated to the development of platforms and software, located in Santo Domingo, National District.
+                Software designed to optimize trial management and productivity in law firms, improving efficiency and profitability. My experience has focused on solutions that automate tasks and optimize project planning.
               </p>
             </div>
             <div className="startEndDate">
               <h5>Date</h5>
               <CodeSnippet type="inline" light>
-                {"Jan 2021 - Sep 2022"}
+                {"Nov 2022 - May 2024"}
               </CodeSnippet>
             </div>
           </div>
         </div>
         <div className="degree">
         <h4>Position:</h4>
-        <h3>Full Stack Developer</h3>
+        <h3>Devops Engineer</h3>
         </div>
       </div>
       <h4>Technologies: </h4>
       <div className="snipperGrid">
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Typescript"}
+            {"Amazon Web Services (AWS)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Type-GraphQL"}
+            {"Kubernetes (EKS)"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Apollo-Server"}
+            {"Terraform"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"TypeORM"}
+            {"DroneCI"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Express"}
+            {"ArgoCD"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Git"}
+            {"Helm Charts"}
           </CodeSnippet>
           <CodeSnippet className="codeSnipped" disabled type="inline">
-            {"Postgres"}
+            {"Datadog"}
+          </CodeSnippet>
+          <CodeSnippet className="codeSnipped" disabled type="inline">
+            {"Serverless Framework"}
           </CodeSnippet>
         </div>
     </div>
