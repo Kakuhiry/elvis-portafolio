@@ -10,9 +10,8 @@ export default function Jobs(): ReactElement {
     <>
 
     <Naxmek/>
-    <DigitalHuman />
     <Lemontech/>
-    <Curbo />
+    <DigitalHuman />
     <MediaRevolution />
     
     </>

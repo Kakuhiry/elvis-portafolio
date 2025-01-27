@@ -24,14 +24,14 @@ export default function Lemontech(): ReactElement {
             <div className="startEndDate">
               <h5>Date</h5>
               <CodeSnippet type="inline" light>
-                {"Sep 2024 - Present"}
+                {"Jan 2021 - Present"}
               </CodeSnippet>
             </div>
           </div>
         </div>
         <div className="degree">
         <h4>Position:</h4>
-        <h3>Golang Backend Engineer · Part-time</h3>
+        <h3>DevOps Engineer/Golang Backend Engineer · Contract</h3>
         </div>
       </div>
       <h4>Technologies: </h4>
